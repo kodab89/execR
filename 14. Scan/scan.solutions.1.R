@@ -7,3 +7,8 @@ vector1 <- scan("http://r-exercises.com/wp-content/uploads/2015/12/scan01.txt")
 vector2 <- scan("http://r-exercises.com/wp-content/uploads/2015/12/scan02.txt")
 vector2 <- as.vector(vector2)
 matrix1 <- matrix(vector2, nrow = 10,byrow = TRUE)
+
+#3
+vector3 <- as.vector(scan("http://www.r-exercises.com/wp-content/uploads/2015/12/scan03.txt", what = "character"))
+
+#4
